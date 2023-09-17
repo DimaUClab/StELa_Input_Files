@@ -52,9 +52,7 @@ The force field for ATP was generated from the automated topology builder server
 
 Solvent: single point charge (SPC) explicit solvent - Neutralized with NaCl
 
-# BOX SIZE
-
-This resulted in a box size of XXX with 327052 total atoms (105790 water molecules).
+This resulted in a box size of 10.19597 nm^3 with 327052 total atoms (105790 water molecules).
 
 Minimized: steepest descent algorithm 50,000 steps w/ Verlet cutoff scheme (with a criteria of the maximum force value smaller than 23.9006 kcal/mol/A to remove steric clashes
 
