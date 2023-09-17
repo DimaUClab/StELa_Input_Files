@@ -40,6 +40,8 @@ Coulombic interactions were treated with with PME algorithm while non-bonded int
 
 ### Katanin (Monomer & Trimer
 
+These simulations wereset up according to our previously established procedure (https://doi.org/10.1016/j.bpj.2021.05.027) and published in (https://doi.org/10.1021/acs.jpcb.2c05288)
+
 The Monomer was modelled from chain A of the spiral conformation of the hexamer(https://www.rcsb.org/structure/6UGD)
 
 The Trimer was modelled from chains A, B & C of the ring conformation of the hexamer(https://www.rcsb.org/structure/6UGE)
@@ -50,9 +52,9 @@ Force Field: GROMOS96 54a7
 
 The force field for ATP was generated from the automated topology builder server based on the GROMOS96 54a7 force field (https://atb.uq.edu.au/index.py)
 
-Solvent: single point charge (SPC) explicit solvent - Neutralized with NaCl
+Solvent: single point charge (SPC) explicit solvent (SOL) - Neutralized with NaCl
 
-This resulted in a box size of 10.19597 nm^3 with 327052 total atoms (105790 water molecules).
+This resulted in a box size of ~10.2 nm^3 with 105118 total atoms (33989 water molecules) for the APO monomer and a box size of ~20.5 nm^3 with 855078 total atoms (392986 water molecules) for the APO trimer (although it could have been simulated with a smaller box size).
 
 Minimized: steepest descent algorithm 50,000 steps w/ Verlet cutoff scheme (with a criteria of the maximum force value smaller than 23.9006 kcal/mol/A to remove steric clashes
 
