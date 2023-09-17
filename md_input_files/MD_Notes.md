@@ -35,6 +35,7 @@ NPT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat f
 
 Coulombic interactions were treated with with PME algorithm while non-bonded interactions used the Verlet cutoff scheme
 
+Random seeds are generated with GROMACS and listed from the .log files below:
 *SEED NUMBERS*:
 # COBYS SEEDS
 
@@ -65,7 +66,22 @@ NPT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat f
 
 Bond lengths with hydrogen atoms were constrained with the LINCS algorithm to use a 2fs integration  step
 
+Coulombic interactions were treated with with PME algorithm while non-bonded interactions used the Verlet cutoff scheme (10.0 A)
+
+Random seeds are generated with GROMACS and listed from the .log files below:
+
 *MONOMER SEED NUMBERS*:
 
+**COMPLEX**: -249883321, -536261852, -1788589511
+
+**NUC**: 101638695, -2045448730, 276159632
+
+**SUB**: 1878948240, 84004512, -423191960
+
+**APO**: -2083739758, -30824429, 1953386675
+
 *TRIMER SEED NUMBERS*:
-Coulombic interactions were treated with with PME algorithm while non-bonded interactions used the Verlet cutoff scheme (10.0 A)
+
+**COMPLEX**: -640837558, -1945828706, 1172327447, 1451457425
+
+**APO**: -1882294672, 596316500, -1077917276, 1942706498
