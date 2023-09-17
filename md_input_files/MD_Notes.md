@@ -36,6 +36,7 @@ NPT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat f
 Coulombic interactions were treated with with PME algorithm while non-bonded interactions used the Verlet cutoff scheme
 
 Random seeds are generated with GROMACS and listed from the .log files below:
+
 *SEED NUMBERS*:
 # COBYS SEEDS
 
