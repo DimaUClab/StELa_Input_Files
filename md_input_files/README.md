@@ -62,8 +62,7 @@ Minimized: steepest descent algorithm 50,000 steps w/ Verlet cutoff scheme (with
 
 NVT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat for 500ps to 300K
 
-# ISOTROPIC?
-NPT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat for 500ps with Parrinello-Rahman pressure coupling to 1 bar
+NPT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat for 500ps with isotropic Parrinello-Rahman pressure coupling to 1 bar
 
 Bond lengths with hydrogen atoms were constrained with the LINCS algorithm to use a 2fs integration  step
 
