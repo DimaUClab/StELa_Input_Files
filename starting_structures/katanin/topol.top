@@ -1,0 +1,68 @@
+;
+;	File 'topol.top' was generated
+;	By user: amanda (1001)
+;	On host: localhost.localdomain
+;	At date: Mon Aug 31 09:32:40 2020
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2019.1 (-:
+;	
+;	Executable:   /usr/local/gromacs2019/bin/gmx
+;	Data prefix:  /usr/local/gromacs2019
+;	Working dir:  /DATA/Katanin_MD/6UGE_Ring/ABC_ATP_E14
+;	Command line:
+;	  gmx pdb2gmx -f 6UGE-ABC-E14.pdb -o 6UGE-ABC-E14-processed.gro -water spce
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "gromos54a7_atb.ff/forcefield.itp"
+
+; Include chain topologies
+
+#include "topol_Protein_chain_A.itp"
+#include "topol_Protein_chain_B.itp"
+#include "topol_Protein_chain_C.itp"
+#include "topol_Protein_chain_G.itp"
+
+; Include LIGAND topology
+#include "ATP_GROMACS_G54A7FF_allatom.itp"
+
+; Ligand position restraints
+#ifdef POSRES_ATPB
+#include "posre_ATP-B.itp"
+#endif
+; Ligand position restraints
+#ifdef POSRES_ATPF
+#include "posre_ATP-C.itp"
+#endif
+
+; Include water topology
+#include "gromos54a7_atb.ff/spce.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "gromos54a7_atb.ff/ions.itp"
+
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+Protein_chain_C     1
+Protein_chain_G     1
+ATP		    2
+SOL         105790
+NA               39
