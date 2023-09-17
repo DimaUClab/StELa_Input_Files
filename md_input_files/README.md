@@ -56,7 +56,7 @@ The force field for ATP was generated from the automated topology builder server
 
 Solvent: single point charge (SPC) explicit solvent (SOL) - Neutralized with NaCl
 
-This resulted in a box size of ~10.2 nm^3 with 105118 total atoms (33989 water molecules) for the APO monomer and a box size of ~20.5 nm^3 with 855078 total atoms (392986 water molecules) for the APO trimer (although it could have been simulated with a smaller box size).
+This resulted in a box size of ~10.2 nm^3 with 105118 total atoms (33989 water molecules) for the APO monomer and a box size of ~20.5 nm^3 with 855078 total atoms (392986 water molecules) for the APO trimer (although it could have been simulated with a smaller box size). Details included in table S2.
 
 Minimized: steepest descent algorithm 50,000 steps w/ Verlet cutoff scheme (with a criteria of the maximum force value smaller than 23.9006 kcal/mol/A to remove steric clashes
 
