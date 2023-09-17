@@ -48,7 +48,7 @@ GROMACS 2019
 
 Force Field: GROMOS96 54a7
 
-The force field for ATP was generated from the automated topology builder server based on the GROMOS96 54a7 force field
+The force field for ATP was generated from the automated topology builder server based on the GROMOS96 54a7 force field (https://atb.uq.edu.au/index.py)
 
 Solvent: single point charge (SPC) explicit solvent - Neutralized with NaCl
 
