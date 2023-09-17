@@ -65,4 +65,7 @@ NPT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat f
 
 Bond lengths with hydrogen atoms were constrained with the LINCS algorithm to use a 2fs integration  step
 
+*MONOMER SEED NUMBERS*:
+
+*TRIMER SEED NUMBERS*:
 Coulombic interactions were treated with with PME algorithm while non-bonded interactions used the Verlet cutoff scheme (10.0 A)
