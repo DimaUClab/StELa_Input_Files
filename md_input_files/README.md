@@ -26,19 +26,21 @@ GROMACS 2022
 Force Field: AMBER99SB-ILDN
 
 Solvent: TIP3P water - Neutralized with NaCl
-# BOX SIZE, No. atoms, water, cofactors
+
+Solvation and processing resulted in a dodecahedral box with box vector (12.25242  12.25242   8.66377). System contained 128434 atoms (42495 water molecules).
+
 Minimized: steepest descent algorithm 50,000 steps w/ Verlet cutoff scheme
-# TEMPERATURE SETTING?
-NVT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat for 500ps
-# ISOTROPIC?
-NPT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat for 500ps with Parrinello-Rahman pressure coupling
+
+NVT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat for 500ps to 300K
+
+NPT: leapfrog integrator, verlet cutoff scheme & velocity-rescaling thermostat for 500ps with isotropic Parrinello-Rahman pressure coupling to 1 bar
 
 Coulombic interactions were treated with with PME algorithm while non-bonded interactions used the Verlet cutoff scheme
 
 Random seeds are generated with GROMACS and listed from the .log files below:
 
 *SEED NUMBERS*:
-# COBYS SEEDS
+-20976663, 2146729359, -365448193, -537208065
 
 ### Katanin (Monomer & Trimer
 
