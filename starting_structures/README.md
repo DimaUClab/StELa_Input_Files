@@ -19,7 +19,7 @@ Modelled from chain A of the spiral conformation of the available hexamer from r
 
 The cofactor states are indicated by the presend cofactors:
 
-COMPLEX: ATP + Substrate (E14)
+COMPLEX: ATP + Substrate (E14) - as seen in the solved structure
 
 NUC: ATP only
 
