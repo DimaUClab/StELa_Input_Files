@@ -10,7 +10,7 @@ Structure generated with Modeller plug-in from the ChimeraX on the tau-bound mic
 
 The tubulin included in the original PDB were excluded from these simulations.
 
-Publications: https://doi.org/10.1021/acscentsci.1c00585
+Publication: https://doi.org/10.1021/acscentsci.1c00585
 
 ## Katanin Monomer Systems
 Modelled from chain A of the spiral conformation of the available hexamer from rcsb (https://www.rcsb.org/structure/6UGD)
@@ -34,4 +34,4 @@ Modelled from chains A, B, & C of the ring conformation of the available hexamer
 
 These systems were only simulated in the COMPLEX and APO cofactor setups.
 
-Publications: https://doi.org/10.1016/j.devcel.2019.10.010
+Publication: https://doi.org/10.1016/j.devcel.2019.10.010
