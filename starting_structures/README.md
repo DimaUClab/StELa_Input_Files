@@ -1,10 +1,16 @@
 # System Naming Key
 
 ## R2/Tau Systems
-Simulations provided by Joan-Emma Shae (https://doi.org/10.1073/pnas.1418155112 & https://doi.org/10.1016/j.sbi.2016.11.006) 
+Simulations provided by Joan-Emma Shae  
+
+Publications: https://doi.org/10.1073/pnas.1418155112 & https://doi.org/10.1016/j.sbi.2016.11.006
 
 ## R4-R'/Tau Systems
-S 
+Structure generated with Modeller plug-in from the ChimeraX on the tau-bound microtubule ensemble from rcsb (https://www.rcsb.org/structure/7PQC)
+
+The tubulin included in the original PDB were excluded from these simulations.
+
+Publications: https://doi.org/10.1021/acscentsci.1c00585
 
 ## Katanin Monomer Systems
 Modelled from chain A of the spiral conformation of the available hexamer from rcsb (https://www.rcsb.org/structure/6UGD)
@@ -27,3 +33,5 @@ Modelled from chains A, B, & C of the ring conformation of the available hexamer
 6UGE-ABC
 
 These systems were only simulated in the COMPLEX and APO cofactor setups.
+
+Publications: https://doi.org/10.1016/j.devcel.2019.10.010
