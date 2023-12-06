@@ -1,4 +1,11 @@
 # System Naming Key
+
+## R2/Tau Systems
+Simulations provided by Joan-Emma Shae (https://doi.org/10.1073/pnas.1418155112 & https://doi.org/10.1016/j.sbi.2016.11.006) 
+
+## R4-R'/Tau Systems
+S 
+
 ## Katanin Monomer Systems
 Modelled from chain A of the spiral conformation of the available hexamer from rcsb (https://www.rcsb.org/structure/6UGD)
 
