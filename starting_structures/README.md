@@ -15,7 +15,7 @@ Publication: https://doi.org/10.1021/acscentsci.1c00585
 ## Katanin Systems
 Publication: https://doi.org/10.1021/acs.jpcb.2c05288
 
-## Monomer 
+### Monomer 
 Modelled from chain A of the spiral conformation of the available hexamer from rcsb (https://www.rcsb.org/structure/6UGD)
 
 6UGD-A
@@ -30,7 +30,7 @@ SUB: Substrate (E14) only
 
 APO: No cofactors
 
-## Trimer
+### Trimer
 Modelled from chains A, B, & C of the ring conformation of the available hexamer from rcsb (https://www.rcsb.org/structure/6UGE)
 
 6UGE-ABC
