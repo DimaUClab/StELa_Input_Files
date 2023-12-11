@@ -42,7 +42,7 @@ Random seeds are generated with GROMACS and listed from the .log files below:
 *SEED NUMBERS*:
 -20976663, 2146729359, -365448193, -537208065
 
-### Katanin (Monomer & Trimer
+### Katanin (Monomer & Trimer)
 
 These simulations wereset up according to our previously established procedure (https://doi.org/10.1016/j.bpj.2021.05.027) and published in (https://doi.org/10.1021/acs.jpcb.2c05288)
 
