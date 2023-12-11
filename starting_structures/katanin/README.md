@@ -9,4 +9,4 @@ The starting structures for running the trimer were adapted 6UGE-ABC-E14.pdb and
 
 As done in the monomer, for the COMPLEX setup, the E14 & ATP were incorporated whereas for the APO set up, neither were included.
 
-The ATP was parameterized with the Automated Topology Builder and Repository (ATB) server. The files used are provided in the atb_param directory.
+The ATP was parameterized with the Automated Topology Builder and Repository (ATB) server. The files used are provided in the atb_param directory. (https://atb.uq.edu.au/)
