@@ -8,3 +8,5 @@ For the COMPLEX setup, the E14 & ATP were incorporated. For the NUC set up we re
 The starting structures for running the trimer were adapted 6UGE-ABC-E14.pdb and ATP-BC.pdb. It is important to note that in the ring conformation of katanin by which this trimer was generated for, there is no nucleotide in protomer A. The 6uge-abc-e14-atp-topol.top file for the complex set up is provided as an example. 
 
 As done in the monomer, for the COMPLEX setup, the E14 & ATP were incorporated whereas for the APO set up, neither were included.
+
+The ATP was parameterized with the Automated Topology Builder and Repository (ATB) server. The files used are provided in the atb_param directory.
