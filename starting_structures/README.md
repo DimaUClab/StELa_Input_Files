@@ -5,7 +5,7 @@ Simulations provided by Joan-Emma Shae
 
 Publications: https://doi.org/10.1073/pnas.1418155112 & https://doi.org/10.1016/j.sbi.2016.11.006
 
-## R4-R'/Tau Systems
+## R4-R'/Tau System
 Structure generated with Modeller plug-in from the ChimeraX on the tau-bound microtubule ensemble from rcsb (https://www.rcsb.org/structure/7PQC)
 
 The tubulin included in the original PDB were excluded from these simulations.
